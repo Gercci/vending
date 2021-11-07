@@ -5,7 +5,6 @@ import {SmallTitle} from "Global";
 export const Change: React.FC = () => {
     const { total, bills }  = useAppSelector(state => state.change)
     if (!total) return null
-    // @ts-ignore
     return (
         <div>
             <SmallTitle>Сдача: {total}</SmallTitle>
