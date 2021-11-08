@@ -41,6 +41,6 @@ export const products: Products = [
         name: 'Nutella',
         category: 'Chocolate paste',
         price: 550,
-        id: 6
+        id: 7
     }
 ]

@@ -6,7 +6,7 @@ export const Products = () => {
     const products = useAppSelector(state => state.products)
     return (
         <Grid>
-            {products?.map(product => <Product {...product} />)}
+            {products?.map(product => <Product key={product.id} {...product} />)}
         </Grid>
     )
 }
