@@ -56,6 +56,6 @@ export const DefaultInputProvider = ({ children }: any) => {
 export const withDefaultInputValues = (Component: React.FC<ContextValue>) => (props: any) => {
     const context = useContext(Context)
     return (
-        <Component {...context} {...props} a={123} />
+        <Component {...context} {...props} />
     )
 }
